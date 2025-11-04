@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import NavBar from './components/NavBar.tsx'
 import About from './components/About.tsx'
+import Experience from './components/Experience.tsx'
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
         <main className="flex-1 overflow-y-auto p-10">
           <section id="about" className="mb-16">
             <About />
+            <Experience />
           </section>
         </main>`
       </div>
