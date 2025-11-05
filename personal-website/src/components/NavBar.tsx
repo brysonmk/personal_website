@@ -1,6 +1,9 @@
 
 export default function NavBar(){
     return (
-        <header>Navbar Component</header>
+        <div>
+            <div className="text-4xl">Navbar Component</div>
+
+        </div>
     )
 }
