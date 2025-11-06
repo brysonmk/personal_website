@@ -4,6 +4,7 @@ import NavBar from './components/NavBar.tsx'
 import About from './components/About.tsx'
 import Experience from './components/Experience.tsx'
 import Projects from './components/Projects.tsx'
+import Education from './components/Education.tsx'
 
 function App() {
 
@@ -17,6 +18,10 @@ function App() {
         <main className="flex-1 min-w-[250px] overflow-y-auto p-6">
            <section id="about" className="mb-16">
             <About />
+          </section>
+
+          <section id='edutcation' className='mb-16'>
+            <Education />
           </section>
 
           <section id="experience" className="mb-16">
