@@ -10,8 +10,8 @@ function App() {
 
   return (
     <>
-      <div className="flex h-screen bg-gray-50 text-gray-800">
-        <div className="min-w-[200px]">
+      <div className="flex h-screen w-screen overflow-hidden border-2 border-red-500">
+        <div className="h-screen min-w-[200px]">
           <NavBar />
         </div>
 
@@ -20,7 +20,7 @@ function App() {
             <About />
           </section>
 
-          <section id='edutcation' className='mb-16'>
+          <section id='education' className='mb-16'>
             <Education />
           </section>
 
