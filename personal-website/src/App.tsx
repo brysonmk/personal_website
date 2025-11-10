@@ -10,8 +10,8 @@ function App() {
 
   return (
     <>
-      <div className="flex h-screen w-screen overflow-hidden border-2 border-red-500">
-        <div className="h-screen min-w-[200px]">
+      <div className="flex h-screen w-screen overflow-hidden flex-col md:flex-row">
+        <div className="min-w-[200px]">
           <NavBar />
         </div>
 
