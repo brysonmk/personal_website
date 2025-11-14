@@ -11,8 +11,8 @@ function App() {
   return (
     <>
       <div className="flex h-screen w-screen overflow-hidden flex-col md:flex-row">
-        <div className="min-w-[200px]">
-          <NavBar />
+        <div className="min-w-[300px]">
+            <NavBar />
         </div>
 
         <main className="flex-1 min-w-[250px] overflow-y-auto p-6">
@@ -28,10 +28,10 @@ function App() {
             <Experience />
           </section>
 
-          <section id="projects">
+          <section id="projects" className="mb-16">
             <Projects />
           </section>
-        </main>`
+        </main>
       </div>
     </>
   )

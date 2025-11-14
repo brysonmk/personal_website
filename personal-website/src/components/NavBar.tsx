@@ -1,7 +1,7 @@
 
 export default function NavBar(){
     return (
-        <div className="m-8 bg-primary text-surface rounded-lg shadow-lg p-6">
+        <div className="navbar m-8 bg-primary text-surface rounded-lg shadow-lg p-6">
             <div className="mt-8 mb-8">
                 <div className="text-4xl font-bold">Bryson Kushner</div>
                 <div className="text-2xl">Software Engineer</div>
