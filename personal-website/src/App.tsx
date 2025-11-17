@@ -16,7 +16,7 @@ function App() {
         </div>
 
         <main className="flex-1 min-w-[250px] overflow-y-auto p-6">
-           <section id="about" className="mb-16">
+          <section id="about" className="mb-16">
             <About />
           </section>
 
